@@ -51,6 +51,21 @@ body {
   font-size: 4rem;
   color: #dedede;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cell.O {
+  background-color: #d8345f;
+}
+.cell.O::after {
+  content: "O";
+}
+.cell.X {
+  background-color: #588da8;
+}
+.cell.X::after {
+  content: "X";
 }
 #info {
   width: 100%;
