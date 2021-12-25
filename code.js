@@ -101,7 +101,7 @@ const ticTacToe = (function () {
   return {
     restart() {
       playing = true;
-      player = "X";
+      player = player === "O" ? "X" : "O";
       infoElement.innerText = `${player} : درحال بازی`;
       cells.forEach((item) => item.reset());
     },
