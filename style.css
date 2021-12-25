@@ -14,8 +14,17 @@ a {
   text-decoration: none;
 }
 button {
+  font-family: "Mikhak";
   outline: none;
   border: none;
+  width: 100%;
+  display: block;
+  background-color: #d8345f;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 1.8rem;
+  padding: 1rem;
+  cursor: pointer;
 }
 html {
   /* ! font-size => 62.5% === 10px === 1rem */
