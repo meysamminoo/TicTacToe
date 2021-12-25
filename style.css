@@ -5,3 +5,59 @@
   font-display: auto;
   font-style: normal;
 }
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+button {
+  outline: none;
+  border: none;
+}
+html {
+  /* ! font-size => 62.5% === 10px === 1rem */
+  font-size: 62.5%;
+  font-family: "Mikhak";
+}
+body {
+  width: 100%;
+  min-height: 41rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper {
+  width: 39rem;
+  margin: 3rem auto;
+  background-color: #fff;
+  padding: 3rem;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+}
+.cell {
+  width: 9rem;
+  height: 9rem;
+  margin: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 4rem;
+  color: #dedede;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+#info {
+  width: 100%;
+  font-size: 2rem;
+  padding: 1.5rem 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
