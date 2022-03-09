@@ -25,10 +25,12 @@ const ticTacToe = (function () {
       checkWinner();
     }
   }
+
   function togglePlayer() {
     player = player === "O" ? "X" : "O";
     infoElement.innerText = `${player} : درحال بازی`;
   }
+
   function checkWinner() {
     let winner = null;
     if (
@@ -98,6 +100,7 @@ const ticTacToe = (function () {
       infoElement.innerHTML = `پایان بازی <button onClick="ticTacToe.restart()">شروع مجدد</button>`;
     }
   }
+
   return {
     restart() {
       playing = true;
